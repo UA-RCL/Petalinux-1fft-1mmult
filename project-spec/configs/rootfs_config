@@ -932,7 +932,7 @@ CONFIG_pciutils=y
 #
 # autoconf 
 #
-CONFIG_autoconf=y
+# CONFIG_autoconf is not set
 # CONFIG_autoconf-dbg is not set
 # CONFIG_autoconf-dev is not set
 
@@ -967,7 +967,7 @@ CONFIG_binutils=y
 #
 # diffstat 
 #
-CONFIG_diffstat=y
+# CONFIG_diffstat is not set
 # CONFIG_diffstat-dev is not set
 # CONFIG_diffstat-dbg is not set
 
@@ -1057,7 +1057,7 @@ CONFIG_diffstat=y
 #
 # lsof 
 #
-CONFIG_lsof=y
+# CONFIG_lsof is not set
 # CONFIG_lsof-dev is not set
 # CONFIG_lsof-dbg is not set
 
@@ -1101,7 +1101,7 @@ CONFIG_python=y
 # CONFIG_python-logging is not set
 # CONFIG_python-xml is not set
 # CONFIG_python-hotshot is not set
-CONFIG_python-multiprocessing=y
+# CONFIG_python-multiprocessing is not set
 # CONFIG_python-threading is not set
 # CONFIG_python-curses is not set
 # CONFIG_python-mime is not set
@@ -2254,7 +2254,7 @@ CONFIG_run-postinsts=y
 #
 # which 
 #
-CONFIG_which=y
+# CONFIG_which is not set
 # CONFIG_which-dev is not set
 # CONFIG_which-dbg is not set
 
@@ -2441,7 +2441,7 @@ CONFIG_udev-extraconf=y
 # gcc-runtime 
 #
 # CONFIG_libstdcPLUSPLUS-dev is not set
-CONFIG_libstdcPLUSPLUS=y
+# CONFIG_libstdcPLUSPLUS is not set
 
 #
 # gcr 
@@ -2873,7 +2873,7 @@ CONFIG_packagegroup-core-ssh-dropbear=y
 CONFIG_perf=y
 # CONFIG_perf-python is not set
 # CONFIG_perf-dbg is not set
-# CONFIG_perf-dev is not set
+CONFIG_perf-dev=y
 # CONFIG_perf-tests is not set
 
 #
@@ -2947,7 +2947,7 @@ CONFIG_python3=y
 # CONFIG_python3-argparse is not set
 # CONFIG_python3-distutils is not set
 # CONFIG_python3-mime is not set
-CONFIG_python3-multiprocessing=y
+# CONFIG_python3-multiprocessing is not set
 # CONFIG_python3-re is not set
 # CONFIG_python3-html is not set
 # CONFIG_python3-enum is not set
@@ -3285,7 +3285,7 @@ CONFIG_python3-multiprocessing=y
 #
 # rpm 
 #
-CONFIG_rpm=y
+# CONFIG_rpm is not set
 # CONFIG_rpm-build is not set
 # CONFIG_rpm-dbg is not set
 # CONFIG_rpm-dev is not set
@@ -3778,7 +3778,7 @@ CONFIG_bridge-utils=y
 #
 # netcat 
 #
-CONFIG_netcat=y
+# CONFIG_netcat is not set
 # CONFIG_netcat-dbg is not set
 # CONFIG_netcat-dev is not set
 
@@ -4228,7 +4228,7 @@ CONFIG_packagegroup-petalinux=y
 #
 # packagegroup-petalinux-benchmarks 
 #
-CONFIG_packagegroup-petalinux-benchmarks=y
+# CONFIG_packagegroup-petalinux-benchmarks is not set
 # CONFIG_packagegroup-petalinux-benchmarks-dbg is not set
 # CONFIG_packagegroup-petalinux-benchmarks-dev is not set
 
@@ -4327,14 +4327,14 @@ CONFIG_packagegroup-petalinux-python-modules=y
 #
 # packagegroup-petalinux-self-hosted 
 #
-CONFIG_packagegroup-petalinux-self-hosted=y
+# CONFIG_packagegroup-petalinux-self-hosted is not set
 # CONFIG_packagegroup-petalinux-self-hosted-dbg is not set
 # CONFIG_packagegroup-petalinux-self-hosted-dev is not set
 
 #
 # packagegroup-petalinux-utils 
 #
-CONFIG_packagegroup-petalinux-utils=y
+# CONFIG_packagegroup-petalinux-utils is not set
 # CONFIG_packagegroup-petalinux-utils-dbg is not set
 # CONFIG_packagegroup-petalinux-utils-dev is not set
 
@@ -4372,7 +4372,7 @@ CONFIG_packagegroup-petalinux-utils=y
 CONFIG_imagefeature-ssh-server-dropbear=y
 # CONFIG_imagefeature-ssh-server-openssh is not set
 CONFIG_imagefeature-hwcodecs=y
-CONFIG_imagefeature-package-management=y
+# CONFIG_imagefeature-package-management is not set
 # CONFIG_imagefeature-debug-tweaks is not set
 
 #
